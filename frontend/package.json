@@ -1,0 +1,43 @@
+{
+  "name": "cqd-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.1.1",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/material": "^6.4.4",
+    "@mui/x-data-grid": "^7.27.2",
+    "axios": "^1.8.1",
+    "canvas": "^3.1.0",
+    "cors": "^2.8.5",
+    "fs": "^0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "next": "15.1.7",
+    "node-poppler": "^7.2.4",
+    "path": "^0.12.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-rnd": "^10.4.14",
+    "react-zoom-pan-pinch": "^3.7.0",
+    "sharp": "^0.33.5",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "typescript": "^5"
+  }
+}
